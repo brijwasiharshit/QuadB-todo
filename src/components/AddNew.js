@@ -45,7 +45,7 @@ const AddNew = ({ setShowNew }) => {
                     ref={newTaskTime}
                     type="text"
                     className="border rounded-md px-4 py-2 w-full"
-                    placeholder="Enter time for the task (HH:MM)"
+                    placeholder="Enter time for the task (HH:MM) 24hr format"
                 />
                 {timeError && <span className='text-red-500 font-semibold '>{timeError}</span>}
                 <button

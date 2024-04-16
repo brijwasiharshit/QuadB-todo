@@ -4,7 +4,7 @@ import Incompleted from './Incompleted'
 
 const TaskContainer = () => {
   return (
-    <div className='bg-blue-50'>
+    <div className='bg-blue-50 min-h-screen'>
       <div>
       <Incompleted />
       <Completed />

@@ -4,7 +4,7 @@ import TaskContainer from './TaskContainer'
 
 const Body = () => {
   return (
-    <div>
+    <div className=''>
       <Nav />
       <TaskContainer />
     </div>
