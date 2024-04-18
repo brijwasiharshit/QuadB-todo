@@ -14,7 +14,7 @@ const AddNew = ({ setShowNew }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const isTimeValid = /^[0-2][0-3]:[0-5][0-9]$/.test(newTaskTime.current.value);
+        const isTimeValid = /^(0?[1-9]|1[0-2]):[0-5][0-9]$/i.test(newTaskTime.current.value);
         if (!isTimeValid) {
             setTimeError("Invalid Time");
             return;
