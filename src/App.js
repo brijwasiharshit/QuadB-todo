@@ -13,7 +13,7 @@ function App() {
  
   return (
    
-      <div className="App bg-blue-500">
+      <div className="App bg-green-200">
        <Provider store = {appStore} >
        <Header />
     <Outlet />
